@@ -1,4 +1,4 @@
-<img width="690" height="663" alt="image" src="https://github.com/user-attachments/assets/632b3d47-7de9-458e-b9d8-d71ca0cc79e5" /># 1. Cài đặt Apache web server.
+# 1. Cài đặt Apache web server.
 # 2. Cài đặt nodejs và nodered => Dùng làm backend.
 # 3. Tạo csdl tuỳ ý trên mssql (sql server 2022), nhớ các thông số kết nối: ip, port, username, password, db_name, table_name.
 # 4. Cài đặt thư viện trên nodered.
