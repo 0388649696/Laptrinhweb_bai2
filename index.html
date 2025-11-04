@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang Tìm Kiếm</title>
+    <link rel="stylesheet" href="anhtu.css">
+</head>
+<body>
+
+    <h1>Tìm kiếm thông tin</h1>
+    <p>Đây là trang web chạy trên Apache (anhtu.com)</p>
+
+    <form id="search-form">
+        <label for="search-input">Nhập họ tên:</label>
+        <input type="text" id="search-input" placeholder="Ví dụ: thị">
+        <button type="submit">Tìm kiếm</button>
+    </form>
+
+    <hr>
+
+    <h2>Kết quả:</h2>
+    <div id="result-container">
+        <pre id="result-json"></pre>
+    </div>
+
+    <script src="anhtu.js"></script>
+</body>
+</html>

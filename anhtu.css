@@ -1,0 +1,50 @@
+/* Dấu ấn cá nhân của bạn */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+}
+
+h1 {
+    color: #005a9c; /* Màu xanh */
+}
+
+/* Định dạng Form */
+#search-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#search-input {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 9px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Khu vực kết quả (thẻ <pre> để giữ định dạng JSON) */
+#result-json {
+    background-color: #282c34; /* Nền tối */
+    color: #61dafb; /* Chữ sáng */
+    padding: 15px;
+    border-radius: 4px;
+    white-space: pre-wrap; /* Giúp xuống dòng tự động */
+    word-wrap: break-word; /* Giúp bẻ gãy từ dài */
+    font-family: Consolas, 'Courier New', monospace;
+}
